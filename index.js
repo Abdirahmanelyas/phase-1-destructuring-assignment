@@ -25,6 +25,60 @@ const nestedMuppet = {
   nestedPartner: 'Miss Piggy'
 };
 
+// Ensure all variables (moo, neigh, baa, oink, cluck) are defined or imported
+const { moo, neigh, baa, oink, cluck } = {
+  moo: 'cow',
+  neigh: 'horse',
+  baa: 'sheep',
+  oink: 'pig',
+  cluck: 'chicken'
+};
+
+// Ensure all variables (bessie, dolly, babe, babe2) are defined or imported
+const { bessie, dolly, babe, babe2 } = {
+  bessie: 'cow',
+  dolly: 'sheep',
+  babe: 'pig',
+  babe2: 'pig'
+};
+
+// Ensure all variables (bessie, dolly, babe, babe2) are defined or imported
+const { bessie, dolly, babe, babe2 } = {
+  bessie: 'cow',
+  dolly: 'sheep',
+  babe: 'pig',
+  babe2: 'pig'
+};
+// Ensure all variables (blackAndWhite, black, pink) are defined or imported
+const { blackAndWhite, black, pink } = {
+  blackAndWhite: 'cow',
+  black: 'sheep',
+  pink: 'pig'
+};
+// Ensure all variables (red, orange, yellow, green, blue, indigo, violet) are defined or imported
+const [red, orange, yellow, green, blue, indigo, violet] = ['red', 'orange', 'yellow', 'green', 'blue', 'indg', 'violet'];
+
+// Ensure all variables (r, o, y, g, b, v) are defined or imported
+const [r, o, y, g, b, v] = ['red', 'orange', 'yellow', 'green', 'blue', 'violet'];
+
+// Ensure indg is defined or imported
+const [indg] = ['indigo'];
+
+// Ensure all variables (muppetName, color, song1, song2, song4, job, partner) are defined or imported
+const { muppetName, color, song1, song2, song4, job, partner } = {
+  muppetName: 'Kermit',
+  color: 'green',
+  song1: 'Rainbow Connection',
+  song2: 'Moving Right Along',
+  song3: 'Bein’ Green',
+  song4: 'I Hope That Somethin’ Better Comes Along',
+  job: 'Host of The Muppet Show',
+  partner: 'Miss Piggy'
+};
+
+
+
+
 // Strings
 
 // 1. Use destructuring to assign appropriate variables based on the sounds animals make.
